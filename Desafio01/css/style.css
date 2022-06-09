@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-branco-principal: #FFFFFF;
+    --azul-escuro-titulo: #1A202C;
+    --cinza-paragrafo: #717171;
+    --cor-de-fundo-body: #F3F5F7;
+    --fonte-principal: "Lexend Deca"
+}
+
+body {
+    background-color: var(--cor-de-fundo-body);
+    font-family: var(--fonte-principal)
+}
+
+.container_header {
+    background: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 900px;
+}
+
+.container_descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.descricao_header {
+    color: var(--cor-branco-principal);
+    font-size: 24px;
+    margin-top: 41px;
+    display: inline-block;
+}
+
+.caixa_de_pesquisa {
+    width: 900px;
+    height: 65px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    margin: 73px 0 41px 0;
+}
+
+.caixa_conteudo {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
+
+.caixa_conteudo p {
+    color: var(--cor-branco-principal);
+    opacity: 0.5;
+    margin-left: 17px;
+}
+
+.container_main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card1 {
+    background-color: var(--cor-branco-principal);
+    width: 900px;
+    height: 195px;
+    margin-top: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+}
+
+.data-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-icon p {
+    margin: 23px 0 0 24px;
+    color: var(--cinza-paragrafo);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.data-icon img {
+    margin: 20px 23px 0 0;
+}
+
+.titulo_card {
+    color: var(--azul-escuro-titulo);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    margin: 22px 0 0 25px;
+    display: inline-block;
+}
+
+.p1 {
+    color: var(--cinza-paragrafo);
+    font-size: 18px;
+    line-height: 32px;
+    margin: 8px 0 0 25px;
+}
+
+.card2 {
+    background-color: var(--cor-branco-principal);
+    width: 900px;
+    height: 259px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.data-icon2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-icon2 p {
+    color: var(--cinza-paragrafo);
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 16px;
+    margin: 25px 0 0 26px;
+}
+
+.data-icon2 img {
+    margin: 22px;
+}
+
+.titulo_card2 {
+    color: var(--azul-escuro-titulo);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    display: inline-block;
+    margin: 10px 0 6px 28px;
+}
+
+.p2 {
+    color: var(--cinza-paragrafo);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 30px;
+    margin-right: 28px;
+}
+
+.card3 {
+    width: 900px;
+    height: 163px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+
+.data-icon3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-icon3 p {
+    color: var(--cinza-paragrafo);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 25px 0 0 24px;
+}
+
+.data-icon3 img {
+    margin: 22px 25px 0 0;
+}
+
+.titulo_card3 {
+    color: var(--azul-escuro-titulo);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    margin: 20px 0 0 29px;
+    display: inline-block;
+}
+
+.p3 {
+    color: var(--cinza-paragrafo);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin: 8px 0 0 29px;
+}
+
+.card4 {
+    background-color: var(--cor-branco-principal);
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.05);
+    border-radius: 5px;
+    width: 900px;
+    height: 259px;
+    margin: 50px 0 100px 0;
+}
+
+.data-icon4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.data-icon4 p {
+    color: var(--cinza-paragrafo);
+    margin: 25px 0 0 25px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.data-icon4 img {
+    margin: 22px 26px 0 0;
+}
+
+.titulo_card4 {
+    color: var(--azul-escuro-titulo);
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    display: inline-block;
+    margin: 20px 0 8px 29px;
+}
+
+.p4 {
+    color: var(--cinza-paragrafo);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 28px;
+    margin-right: 29px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .container_descricao {
+        margin: 0 30px;
+    }
+
+    .caixa_de_pesquisa{
+        width: 708px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .card1, .card2, .card3, .card4 {
+        width: 708px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container {
+        width: 425px;
+    }
+
+    .container_descricao {
+        margin: 0 30px;
+    }
+
+    .caixa_de_pesquisa{
+        width: 365px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .card1, .card2, .card3, .card4 {
+        width: 365px;
+        height: auto;
+        padding-bottom: 20px;
+        padding-right: 1em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 375px;
+    }
+
+    .container_descricao {
+        margin: 0 30px;
+    }
+
+    .caixa_de_pesquisa{
+        width: 315px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .card1, .card2, .card3, .card4 {
+        width: 315px;
+        height: auto;
+        padding-bottom: 20px;
+        padding-right: 1em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        width: 320px;
+    }
+
+    .container_descricao {
+        margin: 0 30px;
+    }
+
+    .caixa_de_pesquisa{
+        width: 260px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .card1, .card2, .card3, .card4 {
+        width: 260px;
+        height: auto;
+        padding-bottom: 20px;
+        padding-right: 1em;
+    }
+}
